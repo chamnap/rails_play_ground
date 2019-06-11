@@ -1,0 +1,4 @@
+li
+  => comment.content.to_s.html_safe
+  | at
+  =< local_time(comment.created_at)

@@ -1,0 +1,10 @@
+- # Optional variables: comment
+
+= bootstrap_form_for comment,
+    remote: true,
+    html: { data: { controller: "remote-form" } } do |form|
+
+    = form.select :privacy, Comment::PRIVACIES, { include_blank: true }, { "data-controller" => "selectize" }
+    = form.rich_text_area :content, hide_label: true, placeholder: "Type your comment here...", autofocus: true
+
+    = form.submit "Post", "data-disable-with" => "Posting..."

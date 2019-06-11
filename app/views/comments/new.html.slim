@@ -1,0 +1,9 @@
+- title 'New Comment'
+
+.row
+  .col-md-12
+    h3.my-3= yield(:title)
+
+    = render 'form', { comment: @comment }
+
+= link_to 'Back to comments', comments_path

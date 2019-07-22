@@ -1,24 +1,5 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This repo serves as my playground for experimenting different features with ruby on rails. It's running on Rails 6, Webpacker, Turbolinks, ...
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. [Remote Form with Stimulus](https://github.com/chamnap/rails_play_ground/blob/master/docs/remote_form_with_stimulus.md)

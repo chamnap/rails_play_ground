@@ -8,7 +8,7 @@ ruby '2.6.1'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'pg',                           '~> 1.1.4'
 gem 'postgresql-check',             '~> 0.1.3'
-gem 'puma',                         '~> 3.12.1'
+gem 'puma',                         '~> 4.3.8'
 gem 'rails',                        '~> 6.0.0.rc1'
 
 gem 'american_date',                '~> 1.1.1'

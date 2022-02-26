@@ -14,7 +14,7 @@ gem 'rails',                        '~> 6.0.0.rc1'
 gem 'american_date',                '~> 1.1.1'
 gem 'bootstrap_form',               '~> 4.2.0'
 gem 'dotenv-rails',                 '~> 2.7.2'
-gem 'nokogiri',                     '~> 1.10.2'
+gem 'nokogiri',                     '~> 1.13.2'
 
 gem 'autoprefixer-rails',           '~> 9.5.1'
 gem 'slim-rails',                   '~> 3.2.0'
